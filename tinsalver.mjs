@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { parseStringPromise } from 'xml2js';
 import fetch from 'node-fetch';
 import { exec } from 'child_process';
