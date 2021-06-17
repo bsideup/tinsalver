@@ -11,15 +11,16 @@ Also, you will need to install and configure Keybase's CLI.
 
 To run the script itself, you will need NodeJS installed on your machine.
 
-Also, make sure that the dependencies are installed:
-
-```shell
-$ npm install
-```
-
 ## Usage
 
+With npx:
 ```shell
+npx github:bsideup/tinsalver sign -u userOrTokenId -p passwordOrToken comexample-java-1234
+```
+
+Or locally:
+```shell
+$ npm install
 $ node tinsalver.mjs sign -u userOrTokenId -p passwordOrToken comexample-java-1234
 ```
 
