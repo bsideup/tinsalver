@@ -23,6 +23,11 @@ $ npm install
 $ node tinsalver.mjs sign -u userOrTokenId -p passwordOrToken comexample-java-1234
 ```
 
+WTF is `comexample-java-1234`? This is your staging repo id.
+
+You will find a list of all your "open" staging repositories in Sonatype's ultra modern Web UI:  
+https://oss.sonatype.org/#stagingRepositories
+
 ## How it works
 
 The script will use Nexus' API to find all artifacts in a given staging repository,
