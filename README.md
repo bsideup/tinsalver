@@ -13,6 +13,12 @@ To run the script itself, you will need NodeJS installed on your machine.
 
 ## Usage
 
+Just [release your artifacts to OSSRH Staging](https://central.sonatype.org/publish/publish-guide/) as usual
+(`https://oss.sonatype.org/service/local/staging/deploy/maven2` with your Sonatype username/password),
+without any signatures.
+
+Then, sign them with TinSalver:
+
 With npx:
 ```shell
 $ npx github:bsideup/tinsalver sign -u userOrTokenId -p passwordOrToken comexample-java-1234
