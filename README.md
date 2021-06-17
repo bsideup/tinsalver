@@ -47,7 +47,7 @@ after CI has finished uploading the artifacts.
 
 Yes! Here is a list of projects that were released with this tool:
 
-- http://github.com/docker-java/docker-java
+- https://github.com/docker-java/docker-java
 - https://github.com/bsideup/jabel
 
 You can check it yourself:
