@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "xml2js": "^0.4.23",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.3.1"
+  }
+}
