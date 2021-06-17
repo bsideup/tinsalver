@@ -15,7 +15,7 @@ To run the script itself, you will need NodeJS installed on your machine.
 
 With npx:
 ```shell
-npx github:bsideup/tinsalver sign -u userOrTokenId -p passwordOrToken comexample-java-1234
+$ npx github:bsideup/tinsalver sign -u userOrTokenId -p passwordOrToken comexample-java-1234
 ```
 
 Or locally:
