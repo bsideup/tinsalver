@@ -76,7 +76,7 @@ await yargs(hideBin(process.argv))
                     method: 'PUT',
                     body: signature,
                     headers: {
-                        Authorization: 'Basic ' + btoa(`${user}:${password}`),
+                        Authorization: 'Basic ' + Buffer.from(`${user}:${password}`).toString('base64'),
                     },
                 });
                 if (resp.status != 201) {
