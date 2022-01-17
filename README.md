@@ -55,6 +55,7 @@ Yes! Here is a list of projects that were released with this tool:
 
 - https://github.com/docker-java/docker-java
 - https://github.com/bsideup/jabel
+- https://github.com/testcontainers/testcontainers-java
 
 You can check it yourself:
 
